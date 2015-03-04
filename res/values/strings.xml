@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shyer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="chat_button"></string>
+    <string name="chat_list_button"></string>
+    <string name="connect_button"></string>
+    <string name="setting_button"></string>
+
+</resources>
