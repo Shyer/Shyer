@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="setting_list_array">
+        <item>个人档案</item>
+        <item>应用设置</item>
+        <item>关于Shyer</item>
+        <item>退出登录</item>
+    </string-array>
+</resources>
