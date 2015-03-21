@@ -3,7 +3,8 @@ package com.shyer.main;
 import java.util.ArrayList;
 
 import com.shyer.fragment.MainFragmentStatePagerAdapter;
-import com.shyer.fragment.RecordListFragment;
+import com.shyer.fragment.ContactListFragment;
+import com.shyer.fragment.MatchFragment;
 
 import android.app.ActionBar;
 import android.os.Bundle;
@@ -30,7 +31,8 @@ import android.widget.Toast;
 public class MainPage extends ActionBarActivity {
 	
 	private ArrayList<Fragment> fragmentsList;
-	private RecordListFragment chatFragment, chatListFragment, matchFragment;
+	private ContactListFragment chatFragment, chatListFragment;
+	private MatchFragment matchFragment;
 	private ImageView chatButton, chatListButton, connectButton, settingButton;
 	private FragmentManager manager = getSupportFragmentManager();
 	private MainFragmentStatePagerAdapter mainAdapter;
@@ -77,9 +79,9 @@ public class MainPage extends ActionBarActivity {
 	}
 	
 	private void initFragments() {
-		chatFragment = new RecordListFragment();
-		chatListFragment = new RecordListFragment();
-		matchFragment = new RecordListFragment();
+		chatFragment = new ContactListFragment();
+		chatListFragment = new ContactListFragment();
+		matchFragment = new MatchFragment();
 		
 		fragmentsList = new ArrayList<Fragment>();
 		fragmentsList.add(chatFragment);

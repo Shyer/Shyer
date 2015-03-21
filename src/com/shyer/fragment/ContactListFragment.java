@@ -19,7 +19,7 @@ import android.widget.SimpleAdapter;
  * @author aohuijun
  *
  */
-public class RecordListFragment extends ListFragment {
+public class ContactListFragment extends ListFragment {
 	
 	private String[] testTitles = {
 			"对话1", "对话2", "对话3", "对话4", "对话5"
@@ -35,8 +35,8 @@ public class RecordListFragment extends ListFragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		View recordListView = inflater.inflate(R.layout.record_list, container, false);
-		return recordListView;
+		View contactListView = inflater.inflate(R.layout.fragment_contact_list, container, false);
+		return contactListView;
 	}
 	
 	@Override
@@ -45,7 +45,7 @@ public class RecordListFragment extends ListFragment {
 		final String[] from = new String[]{"title","content"};
 		final int[] to = new int[] {R.id.list_title, R.id.list_content};
 		super.onActivityCreated(savedInstanceState);
-		SimpleAdapter adapter = new SimpleAdapter(this.getActivity(), getSimpleData(), R.layout.chat_list_item, from, to);
+		SimpleAdapter adapter = new SimpleAdapter(this.getActivity(), getSimpleData(), R.layout.contact_list_item, from, to);
 		this.setListAdapter(adapter);
 		
 	}
