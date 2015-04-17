@@ -10,15 +10,15 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal"
-        android:paddingTop="8dp"
-        android:paddingBottom="8dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
         android:paddingLeft="16dp"
         android:paddingRight="16dp" >
 
         <ImageView
-            android:id="@+id/chatBtn"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
+            android:id="@+id/chat_button"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
             android:layout_centerHorizontal="true"
             android:contentDescription="@string/chat_button"
             android:src="@drawable/chat_button"
@@ -27,19 +27,19 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/chat_list_page"
+        android:id="@+id/contact_page"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal"
-        android:paddingTop="8dp"
-        android:paddingBottom="8dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
         android:paddingLeft="16dp"
         android:paddingRight="16dp" >
 
         <ImageView
-            android:id="@+id/chatListBtn"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
+            android:id="@+id/contact_button"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
             android:layout_centerHorizontal="true"
             android:contentDescription="@string/chat_list_button"
             android:src="@drawable/contact_button"
@@ -52,15 +52,15 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal"
-        android:paddingTop="8dp"
-        android:paddingBottom="8dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
         android:paddingLeft="16dp"
         android:paddingRight="16dp" >
 
         <ImageView
-            android:id="@+id/matchBtn"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
+            android:id="@+id/match_button"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
             android:layout_centerHorizontal="true"
             android:contentDescription="@string/connect_button"
             android:src="@drawable/match_button"
@@ -72,15 +72,15 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal"
-        android:paddingTop="8dp"
-        android:paddingBottom="8dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp" >
 
         <ImageView
-            android:id="@+id/settingBtn"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
+            android:id="@+id/setting_button"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
             android:layout_centerHorizontal="true"
             android:layout_alignParentRight="true"
             android:contentDescription="@string/setting_button"

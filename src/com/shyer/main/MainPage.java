@@ -68,10 +68,10 @@ public class MainPage extends ActionBarActivity {
 	}
     
 	private void initItems() {
-		chatButton = (ImageView)findViewById(R.id.chatBtn);
-		chatListButton = (ImageView)findViewById(R.id.chatListBtn);
-		connectButton = (ImageView)findViewById(R.id.matchBtn);
-		settingButton = (ImageView)findViewById(R.id.settingBtn);
+		chatButton = (ImageView)findViewById(R.id.chat_button);
+		chatListButton = (ImageView)findViewById(R.id.contact_button);
+		connectButton = (ImageView)findViewById(R.id.match_button);
+		settingButton = (ImageView)findViewById(R.id.setting_button);
 		chatButton.setOnClickListener(new FragmentChangeClickListener(0));
 		chatListButton.setOnClickListener(new FragmentChangeClickListener(1));
 		connectButton.setOnClickListener(new FragmentChangeClickListener(2));
@@ -92,6 +92,7 @@ public class MainPage extends ActionBarActivity {
 		mainViewPager = (ViewPager)findViewById(R.id.viewPager);
 		mainViewPager.setOnPageChangeListener(new MyOnPageChangeListener());
 		mainViewPager.setAdapter(mainAdapter);
+		mainViewPager.setCurrentItem(2);
 	}
 	
 	private void initSettingPage() {
